@@ -31,7 +31,7 @@ export default function Projects(){
             <Project  className="project" title="LivingWell" src={[php , mysql ,html, css , js ,jquery]} description="LivingWell: Your go-to platform for finding the perfect rental home. Discover, connect, and move in!" link="https://f-aljardan.github.io/LivingWell/" code='https://github.com/f-aljardan/LivingWell.git'/>
             <Project   className="project" title="ToDOList" src={[html , css , node , mongo ]} description="Streamline task management with our simple TodoList app. "   link="https://magnificent-sweatshirt-goat.cyclic.app/"  code="https://github.com/f-aljardan/ToDoList.git" />
             <Project   className="project" title="BloggingWebsite" src={[html , tailwindCSS , node , mongo]} description="Unleash your creativity on our focused blogging website. Share your stories with the world."/>
-            <Project    className="project" title="MyPortfolio" src={[reacticon , tailwindCSS]} description="single-page personal portfolio website built with REACT" link="https://64c70287d8f4f353a356813a--vocal-tartufo-4c40f6.netlify.app/" code="https://github.com/f-aljardan/my-portfolio.git"/>
+            <Project    className="project" title="MyPortfolio" src={[reacticon , tailwindCSS]} description="single-page personal portfolio website built with REACT" link="https://vocal-tartufo-4c40f6.netlify.app/" code="https://github.com/f-aljardan/my-portfolio.git"/>
             </div>
 
             </div>
