@@ -1,5 +1,13 @@
 
 import background from '/background.png'
+import mongo from "/mongo.png"
+import node from "/node.png"
+import reacticon from "/reacticon.png"
+import mysql from "/mysql.png"
+import github from "/github.png"
+import flutter from "/flutter.png"
+import figma from "/figma.png"
+import firebase from "/firebase.png"
 
 export default function About(){
     return (
@@ -13,10 +21,14 @@ export default function About(){
 <div className='about-heading'>MY SKILLS</div>
 
 <div className='skills-container'>
-<div className='skills-container-item'> <p>REACT.JS</p></div>
-<div className='skills-container-item'><p>FLUTTER</p></div>
-<div className='skills-container-item'><p>NODE.JS</p></div>
-<div className='skills-container-item'><p>MongoDB</p></div>
+<div className='skills-container-item'> <img src={reacticon} /></div>
+<div className='skills-container-item'><img src={node}/></div>
+<div className='skills-container-item'><img src={mongo}/></div>
+<div className='skills-container-item'><img src={github}/></div>
+<div className='skills-container-item'><img src={mysql}/></div>
+<div className='skills-container-item'><img src={flutter}/></div>
+<div className='skills-container-item'><img src={figma}/></div>
+<div className='skills-container-item'><img src={firebase}/></div>
 </div>
 
 </div>

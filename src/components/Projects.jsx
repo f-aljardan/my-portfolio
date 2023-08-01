@@ -21,7 +21,7 @@ export default function Projects(){
     return(
         <div className="projects">
             
-        <div className='About-bg'>
+        <div className='project-bg'>
             <img className="background" src={background} />
             <div className="projects-container">
             <div className='about-heading'>PROJECTS</div>
