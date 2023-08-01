@@ -55,10 +55,10 @@ function handleSubmit(event){
 
             <div className="contact-container">
 
-<div className='contact-heading'><div>CONTACT</div><img src={msg} width={50}/></div>
+<div className='contact-heading'><div className='contact-h1'>CONTACT</div><div className='contact-h2'>Feel free to Contact me by submitting the form below</div></div>
 
 <form className='form-flex' onSubmit={handleSubmit}>
-<div> <input  placeholder="Your Name" className="name-email" type='text' name="name" value={ContactMessage.name} onChange={setForm}></input></div>
+<div> <input  placeholder="Name" className="name-email" type='text' name="name" value={ContactMessage.name} onChange={setForm}></input></div>
 <div> <input placeholder="Email" className="name-email" type='text' name="email" value={ContactMessage.email} onChange={setForm}></input></div>
 <div>  <textarea  placeholder="Message" className="message" type='text' name="message" value={ContactMessage.message} onChange={setForm}/></div>
 <button className='info-button'>Send</button>
