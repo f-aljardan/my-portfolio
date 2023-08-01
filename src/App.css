@@ -434,15 +434,31 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 
+.footer {
+  background-color: #ffffff;
+  color:#424242;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width:500px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
 
- 
-  .nav {
-    flex-direction: column;
-    align-items: center;
+  .nav{
+    flex-direction: column ; 
+    align-items: center ;
+
   }
 
   .nav-links {
@@ -460,11 +476,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-bottom: none; /* Remove the border bottom on mobile to avoid duplication */
     padding: 0; /* Reset padding for links in mobile view */
   }
-}
 
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
   .hero-container {
     flex-direction: column;
     align-items: center;
@@ -480,15 +492,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   .info2 {
     font-size: 40px;
   }
-}
 
 
 
 
 
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
+
 
 .about-container {
   width: 90%; /* Adjust container width on smaller screens */
@@ -509,21 +519,20 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   width: 100%; /* Set width to 100% to occupy the full width of its parent container */
 }
 
-}
 
 
-@media screen and (max-width: 768px) {
+
+
   
   .projects-container {
     width: 90%; /* Adjust container width on smaller screens */
   
   }
 
-  }
+  
 
 
-  /* Media Queries */
-@media screen and (max-width: 768px) {
+
   .contact-container {
     width: 90%; /* Adjust container width on smaller screens */
   }
@@ -537,29 +546,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   .contact-h2 {
     font-size: 15px; /* Adjust font size on smaller screens */
   }
-}
 
-
-
-.footer {
-  background-color: #ffffff;
-  color:#424242;
-  padding: 10px;
-  text-align: center;
-}
-
-.footer-content {
-  max-width:500px;
-  margin: 0 auto;
-}
-
-.footer p {
-  font-size: 16px;
-}
-
-/* Media Query for responsiveness */
-@media screen and (max-width: 768px) {
   .footer {
     padding: 15px;
   }
 }
+
+
+
+
+
